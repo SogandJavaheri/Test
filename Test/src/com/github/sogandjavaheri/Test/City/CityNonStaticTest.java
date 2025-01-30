@@ -10,15 +10,17 @@ public class CityNonStaticTest {
         city1.population = 50000;
         city1.weather = "Sunny";
 
-        System.out.println(city1.name);
-        System.out.println(city1.code);
-        System.out.println(city1.population);
-        System.out.println(city1.weather);
+//        System.out.println(city1.name);
+//        System.out.println(city1.code);
+//        System.out.println(city1.population);
+//        System.out.println(city1.weather);
 
         city1.GetName();
+        System.out.println(city1.GetName());
         city1.CalculateWeather();
     }
 }
+
 class CityNonStatic {
 
     String name;
@@ -29,7 +31,7 @@ class CityNonStatic {
 
     public String GetName(CityNonStatic this){
 
-        return name;
+        return this.name;
 
     }
 

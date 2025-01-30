@@ -10,9 +10,9 @@ public class CarProductionNonStaticTest {
         car1.plateNumber = 3456;
         car1.price = 200000000;
 
-        System.out.println(car1.model);
-        System.out.println(car1.color);
-        System.out.println(car1.plateNumber);
+//        System.out.println(car1.model);
+//        System.out.println(car1.color);
+//        System.out.println(car1.plateNumber);
 
         car1.ProfitPercentage();
     }
@@ -31,10 +31,9 @@ class CarProductionNonStatic {
 
         double profit = 0;
         profit += this.price;
-        double percentage = 0;
-        percentage = profit * 100 / this.price;
+        double percentage = profit * 100 / this.price;
 
-        System.out.printf(this.plateNumber + "\tprofit is: " + percentage + "%\n");
+        System.out.println(this.plateNumber + "\tprofit is: \t" + percentage);
 
     }
 
