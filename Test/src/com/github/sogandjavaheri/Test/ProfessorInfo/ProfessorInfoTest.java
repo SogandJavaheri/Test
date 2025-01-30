@@ -7,7 +7,7 @@ public class ProfessorInfoTest {
 
         ProfessorInfo prof1 = new ProfessorInfo();
         prof1.firstName = "Ali";
-        prof1.lastName = "Shadan";
+        prof1.lastName = "Somer";
         prof1.age = 40;
         prof1.gender = "Male";
         prof1.ID = 123456789;

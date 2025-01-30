@@ -13,5 +13,8 @@ public class BookshopTest {
         System.out.println(book1.name);
         System.out.println(book1.author);
         System.out.println(book1.publishYear);
+
+        book1.sellAmount();
+        book1.buyAmount();
     }
 }
